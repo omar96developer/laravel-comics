@@ -1,0 +1,98 @@
+.footer_container_1 {    
+    background-image: url("/img/footer-bg.jpg");
+
+    .footer_container_A {
+        width: 1200px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-image: url("/img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        
+        .footer1 {
+            height: 400px;
+            width: 100%;
+            display: flex;
+    
+            .footer1_list {
+                height: 100%;
+                width: 600px;
+                display: flex;
+                padding: 20px 0;
+    
+                .list{
+    
+                    width: calc(100% / 3);
+                    height: 100%;
+                    text-align: start;
+                    color: white;
+                    ul {
+                        list-style: none;
+                        text-align: start;
+                        padding: 0;
+                        
+                        li{
+                            line-height: 25px;
+                            cursor: pointer;
+                            color: #708391;
+                            font-size: 14px;
+                        }
+                    }
+                }
+    
+                
+            }
+    
+            
+        }
+    }
+}
+.footer_container_2 {
+    background-color: #303030;
+    .footer_container_B {
+        width: 1200px;
+        height: 100px;
+        display: flex;
+        margin: auto;
+        color: white;
+        
+        .footer2 {
+            display: flex;
+            width: 100%;
+            .signup {
+                height: 100%;
+                width: 50%;
+                display: flex;
+                text-align: start;
+                align-items: center;
+
+                a{
+                    color: white;
+                    border: 3px solid #0282f9;
+                    padding: 10px;
+                    text-decoration: none;
+                }
+            }
+            .follow {
+                height: 100%;
+                width: 50%;
+                color: #0282f9;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                h4 {
+                    margin-right: 10px;
+                }
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin: 10px;
+                }
+
+            }
+        }
+
+    }
+}

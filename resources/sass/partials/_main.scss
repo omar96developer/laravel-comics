@@ -1,0 +1,104 @@
+main {
+    background-image: url(/img/jumbotron.jpg);
+    background-size: contain;
+    padding-top: 400px;
+}
+.main_section1 {
+    background-color: #1c1c1c;
+    padding: 40px 0;
+
+    
+    .load {
+        margin: auto;
+        width: 250px;
+        background-color: #0282f9;
+        margin-top: 20px;
+        
+        a{
+            color: white;
+            text-decoration: none; 
+            display: block;      
+            padding: 10px 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    .container_section1{
+        width: 1200px; 
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+
+
+        .serie {
+            background-color: #0282f9;
+            width: 220px;
+            color: white;
+            font-weight: bold;
+            padding: 10px 0;
+            position: absolute;
+            top: -60px;
+            left: -15px;
+            text-align: center;
+        }
+        .product_card {
+         flex-basis: calc(100% / 6 - 20px);
+         position: relative;
+         img {
+             height: 180px;
+             width: 100%;
+         }
+         h4{
+             color: white;
+         }
+        }
+        
+    } 
+   
+}
+
+.main_section2 { 
+    background-color: #0282f9;
+    padding: 20px 0;
+
+    .container_section2 {
+        width: 1200px;
+        height: 100px; 
+        margin: auto;
+        display: flex;
+        align-items: center;
+        
+        .list_items {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0;
+            margin: 0 30px;
+
+            .list_item {
+                list-style: none;
+                display: flex;
+
+                img {
+                    height: 60px;
+                }
+                &:last-child img {
+                    width: 70px;
+                }
+                a {
+                    align-self: center;
+                    margin-left: 10px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+           
+        }
+    }
+
+
+}

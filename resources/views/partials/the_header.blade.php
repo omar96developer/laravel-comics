@@ -35,7 +35,16 @@ $navbarItems = [
 @endphp
 
 
-
+<div class="blue_header">
+    <div class="blue_container">
+        <div class="blue_a">
+            <p>DC POWER VISA</p>
+        </div>
+        <div class="blue_b">
+            <p>ADDITIONAL DC SITES</p>
+        </div>
+    </div>
+</div>
 <nav>
     <div class="nav_container">
         <div class="nav_logo">
@@ -49,6 +58,9 @@ $navbarItems = [
                 </li>
                 @endforeach               
             </ul>
+        </div>
+        <div class="nav_search">
+            <input class="nav_search_input" type="search" placeholder="Search">
         </div>
     </div>
 </nav>

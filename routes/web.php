@@ -40,3 +40,10 @@ Route::get('/', function () {
 
     return view('home',["data" => $datas], ["comic" => $comics]);
 })->name('home');
+
+
+Route::get('series/{id}',function($id) {
+    $comics = config("comics");
+    $series = $comics[$id];
+    return view('series',["serie" => $series]);
+})->name('series');

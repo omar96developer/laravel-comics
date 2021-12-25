@@ -1,0 +1,43 @@
+.series_1 {
+    background-color: #0282f9;
+    .series_1_a {
+        width: 1000px;
+        height: 80px;
+        margin: auto;
+        .figure {
+            border: 2px solid white;
+            width: 190px;
+            position: relative;
+            transform: translateY(-230px);
+            img {
+                width: 100%;
+            }
+            .figure_a, .figure_b {
+                background-color: #00a9d9;
+                color: white;
+                padding: 2px 10px;
+                position:absolute;
+            }
+            .figure_a {
+                
+                top: 0;
+            }
+            .figure_b{
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+
+            }
+        }
+
+    }
+}
+.series_2 {
+    background-color: white;
+    .series_2_a {
+        width: 1000px;
+        margin: auto;
+        display: flex;
+    }
+
+}

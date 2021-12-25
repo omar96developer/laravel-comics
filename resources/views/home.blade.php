@@ -8,10 +8,11 @@
             <div class="serie">CURRENT SERIES</div>
 
             @foreach ($comic as $item)
-            <div class="product_card" >
+            <a href="{{route('series', ['id' => $loop->index])}}" class="product_card" >
                 <img src={{$item['thumb']}} alt="#">
                 <h4>{{$item['series']}}</h4>
-            </div>
+            </a>
+            
             @endforeach     
         </div>
         <div class="load">

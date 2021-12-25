@@ -43,6 +43,7 @@ main {
             top: -60px;
             left: -15px;
             text-align: center;
+            
         }
         .product_card {
          flex-basis: calc(100% / 6 - 20px);
@@ -53,6 +54,7 @@ main {
          }
          h4{
              color: white;
+             text-decoration: underline #1c1c1c;
          }
         }
         

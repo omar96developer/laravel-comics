@@ -19,7 +19,7 @@
                 position:absolute;
             }
             .figure_a {
-                
+                text-transform: uppercase;
                 top: 0;
             }
             .figure_b{
@@ -34,10 +34,73 @@
 }
 .series_2 {
     background-color: white;
+    padding: 80px 0;
     .series_2_a {
         width: 1000px;
         margin: auto;
         display: flex;
+        .description {
+            width: 70%;
+            margin-right: 40px;
+            h1 {
+                color: #003f5e;
+            }
+            .desc {
+                color: gray;
+            }
+            .status {
+                display: flex;
+                background-color: #55ba59;
+                margin: 30px 0 20px 0;
+                .status_a, .status_b{
+                    padding: 10px 20px;
+                }
+                .status_a {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    color: #b9fa94;
+                    border-right: 1px solid black;
+                    .status_a_1{
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+                .status_b {
+                    width: 30%;
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+        .adv {
+            width: 30%;
+            text-align: end;
+            color: grey;
+            img{
+                width: 50%;
+                margin-top: 5px;
+            }
+        }
     }
 
+}
+.series_3 {
+    background-color: #f6f6f6;
+    .series_3_1 {
+        width: 1000px;
+        margin: auto;
+        .series_3_a {
+            display: flex;
+            color: #003f5e;
+            .talent{
+                width: 50%;
+             
+            }
+            .specs {
+                width: 50%;
+            }
+        }
+    }
 }

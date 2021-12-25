@@ -138,6 +138,8 @@ main {
 
 .main_section1 .container_section1 .product_card h4 {
   color: white;
+  -webkit-text-decoration: underline #1c1c1c;
+          text-decoration: underline #1c1c1c;
 }
 
 .main_section2 {
@@ -310,6 +312,7 @@ main {
 }
 
 .series_1 .series_1_a .figure .figure_a {
+  text-transform: uppercase;
   top: 0;
 }
 
@@ -321,11 +324,87 @@ main {
 
 .series_2 {
   background-color: white;
+  padding: 80px 0;
 }
 
 .series_2 .series_2_a {
   width: 1000px;
   margin: auto;
   display: flex;
+}
+
+.series_2 .series_2_a .description {
+  width: 70%;
+  margin-right: 40px;
+}
+
+.series_2 .series_2_a .description h1 {
+  color: #003f5e;
+}
+
+.series_2 .series_2_a .description .desc {
+  color: gray;
+}
+
+.series_2 .series_2_a .description .status {
+  display: flex;
+  background-color: #55ba59;
+  margin: 30px 0 20px 0;
+}
+
+.series_2 .series_2_a .description .status .status_a,
+.series_2 .series_2_a .description .status .status_b {
+  padding: 10px 20px;
+}
+
+.series_2 .series_2_a .description .status .status_a {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  color: #b9fa94;
+  border-right: 1px solid black;
+}
+
+.series_2 .series_2_a .description .status .status_a .status_a_1 span {
+  color: white;
+}
+
+.series_2 .series_2_a .description .status .status_b {
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+
+.series_2 .series_2_a .adv {
+  width: 30%;
+  text-align: end;
+  color: grey;
+}
+
+.series_2 .series_2_a .adv img {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.series_3 {
+  background-color: #f6f6f6;
+}
+
+.series_3 .series_3_1 {
+  width: 1000px;
+  margin: auto;
+}
+
+.series_3 .series_3_1 .series_3_a {
+  display: flex;
+  color: #003f5e;
+}
+
+.series_3 .series_3_1 .series_3_a .talent {
+  width: 50%;
+}
+
+.series_3 .series_3_1 .series_3_a .specs {
+  width: 50%;
 }
 

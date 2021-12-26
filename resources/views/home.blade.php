@@ -1,5 +1,9 @@
 @extends('layouts.default')
 
+@section('title', 'DC COMICS')
+    
+
+
 @section('main')
 
     <section class="main_section1">

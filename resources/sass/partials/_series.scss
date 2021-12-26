@@ -93,13 +93,75 @@
         margin: auto;
         .series_3_a {
             display: flex;
+            justify-content: space-between;
             color: #003f5e;
+            .talent, .specs {
+                display: flex;
+                flex-direction: column;
+                padding: 30px 0;
+                a{
+                    text-decoration: none;
+                    color: #0282f9;
+                    span{
+                        color: black;
+                    }
+                }
+            }
             .talent{
                 width: 50%;
-             
+                h2{
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid lightgrey;
+                }
+                .talent_a, .talent_b {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    border-bottom: 1px solid lightgrey;
+                   
+                
+                    .artist, .writers{
+                        width: 80%;
+                    }
+                }
+                
             }
             .specs {
-                width: 50%;
+                width: 45%;
+                h2{
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid lightgrey;
+                }
+                .specs_a, .specs_b, .specs_c {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    border-bottom: 1px solid lightgrey;
+
+                    .serie, .price, .date {
+                        width: 60%;
+                    }
+
+                }
+                
+            }
+        }
+    }
+    .series_3_2 {
+        border-top: 1px solid lightgrey;
+        margin-top: 80px;
+        .series_3_2_a {
+            width: 1000px;
+            margin: auto;
+            display: flex;
+            div {
+                flex-basis: calc(100% / 4);
+                border: 1px solid lightgray;
+                border-top: none;
+                border-bottom: none;
+                color: grey;
+                padding: 10px;
+                height: 80px;
             }
         }
     }

@@ -2,10 +2,12 @@
   padding: 0%;
   margin: 0;
   box-sizing: border-box;
+  font-family: arial;
 }
 
 .blue_header {
   background-color: #0c7cec;
+  padding: 10px 0;
 }
 
 .blue_header .blue_container {
@@ -397,14 +399,100 @@ main {
 
 .series_3 .series_3_1 .series_3_a {
   display: flex;
+  justify-content: space-between;
   color: #003f5e;
+}
+
+.series_3 .series_3_1 .series_3_a .talent,
+.series_3 .series_3_1 .series_3_a .specs {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.series_3 .series_3_1 .series_3_a .talent a,
+.series_3 .series_3_1 .series_3_a .specs a {
+  text-decoration: none;
+  color: #0282f9;
+}
+
+.series_3 .series_3_1 .series_3_a .talent a span,
+.series_3 .series_3_1 .series_3_a .specs a span {
+  color: black;
 }
 
 .series_3 .series_3_1 .series_3_a .talent {
   width: 50%;
 }
 
+.series_3 .series_3_1 .series_3_a .talent h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.series_3 .series_3_1 .series_3_a .talent .talent_a,
+.series_3 .series_3_1 .series_3_a .talent .talent_b {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.series_3 .series_3_1 .series_3_a .talent .talent_a .artist,
+.series_3 .series_3_1 .series_3_a .talent .talent_a .writers,
+.series_3 .series_3_1 .series_3_a .talent .talent_b .artist,
+.series_3 .series_3_1 .series_3_a .talent .talent_b .writers {
+  width: 80%;
+}
+
 .series_3 .series_3_1 .series_3_a .specs {
-  width: 50%;
+  width: 45%;
+}
+
+.series_3 .series_3_1 .series_3_a .specs h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.series_3 .series_3_1 .series_3_a .specs .specs_a,
+.series_3 .series_3_1 .series_3_a .specs .specs_b,
+.series_3 .series_3_1 .series_3_a .specs .specs_c {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.series_3 .series_3_1 .series_3_a .specs .specs_a .serie,
+.series_3 .series_3_1 .series_3_a .specs .specs_a .price,
+.series_3 .series_3_1 .series_3_a .specs .specs_a .date,
+.series_3 .series_3_1 .series_3_a .specs .specs_b .serie,
+.series_3 .series_3_1 .series_3_a .specs .specs_b .price,
+.series_3 .series_3_1 .series_3_a .specs .specs_b .date,
+.series_3 .series_3_1 .series_3_a .specs .specs_c .serie,
+.series_3 .series_3_1 .series_3_a .specs .specs_c .price,
+.series_3 .series_3_1 .series_3_a .specs .specs_c .date {
+  width: 60%;
+}
+
+.series_3 .series_3_2 {
+  border-top: 1px solid lightgrey;
+  margin-top: 80px;
+}
+
+.series_3 .series_3_2 .series_3_2_a {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+.series_3 .series_3_2 .series_3_2_a div {
+  flex-basis: 25%;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-bottom: none;
+  color: grey;
+  padding: 10px;
+  height: 80px;
 }
 

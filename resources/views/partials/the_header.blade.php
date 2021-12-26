@@ -48,7 +48,8 @@ $navbarItems = [
 <nav>
     <div class="nav_container">
         <div class="nav_logo">
-            <img src="{{asset('img/dc-logo.png')}}" alt="dc-logo">
+            <a href="{{route('home')}}"><img src="{{asset('img/dc-logo.png')}}" alt="dc-logo"></a>
+            
         </div>
         <div class="nav_items">
             <ul class="nav_items_list">

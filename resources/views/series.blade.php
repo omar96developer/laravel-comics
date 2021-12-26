@@ -47,7 +47,9 @@
                         <h5>Art by:</h5>
                     </div>
                     <div class="">
-                        <p></p>
+                        @foreach ($serie['artists'] as $item)
+                            <a href="#">{{$item}}</a>
+                        @endforeach
                     </div>
                 </div>
                 <div class="talent_b">
@@ -55,23 +57,41 @@
                         <h5>Written by:</h5>
                     </div>
                     <div class="">
-                        <p></p>
+                        @foreach ($serie['writers'] as $item)
+                            <a href="#">{{$item}}</a>
+                        @endforeach
                     </div>
                 </div>
             </div>
             <div class="specs">
                 <h2>Specs</h2>
                 <div class="specs_a">
-                    <div class=""></div>
-                    <div class=""></div>
+                    <div class="">
+                        <h5>Series:</h5>
+                    </div>
+                    <div class="">
+                        <a href="#">{{$serie['series']}}</a>
+                    </div>
                 </div>
                 <div class="specs_b">
-                    <div class=""></div>
-                    <div class=""></div>
+                    <div class="">
+                        <h5>U.S. Price:</h5>
+                    </div>
+                    <div class="">
+                        <p>{{$serie['price']}}</p>
+                    </div>
                 </div>
                 <div class="specs_c">
-                    <div class=""></div>
-                    <div class=""></div>
+                    <div class="">
+                        <h5>On Sale Date:</h5>
+                    </div>
+                    <div class="">
+                        @php
+                            $originalDate = $serie['sale_date'];
+                            $newDate = date("M d Y", strtotime($originalDate));
+                        @endphp
+                        <p>{{$newDate}}</p>
+                    </div>
                 </div>
             </div>
         </div>
